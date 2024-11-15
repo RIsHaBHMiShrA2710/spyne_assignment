@@ -1,0 +1,76 @@
+/* General styles for the page */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Container for the login/register form */
+  .login-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Heading */
+  .login-container h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  /* Input fields */
+  .login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Buttons */
+  .login-container button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .login-container button[type='submit'] {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .login-container button[type='submit']:hover {
+    background-color: #0056b3;
+  }
+  
+  .login-container .toggle-mode {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .login-container .toggle-mode:hover {
+    background-color: #5a6268;
+  }
+  
+  /* Error message */
+  .login-container .error {
+    color: red;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
